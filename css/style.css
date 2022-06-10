@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url(PatrickHand-Regular);
+}
 :root {
     --background: hsl(48, 33%, 97%);
     --background-decor: #0cf3f3;
@@ -5,8 +9,8 @@
     --banner-txt: #ff3e98;
     --message-bg: hsl(210, 25%, 98%);
     --message-line: #25d8f8;
-    --font-banner: 'cursive';
-    --font-text: 'Shadows Into Light', 'cursive';
+    --font-banner: 'Patrick Hand';
+    --font-text: 'patrick hand';
     --space: 13px;
     --space-xsm: 20x;
     --space-sm: 30px;
@@ -363,5 +367,5 @@ body{
 .bday-decor--top-right4 {
     position: absolute;
     bottom: 307px;
-    right: 124px;
+    right: 135px;
 }
